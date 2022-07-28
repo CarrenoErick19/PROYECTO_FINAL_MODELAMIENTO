@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %} Inicio {% endblock %}
+{% block content %}
+<br>
+<div class="card bg-success mb-3">
+  <div class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="{{ url_for('static', filename='FotoDePerfil.jpg') }}"
+            style="filter:alpha(opacity=50); height: 300px;" class="rounded mx-auto d-block" alt="Boutique Fashion">
+        </div>
+        <div class="col-sm-6">
+          <h2 class="card-title" align="center">Universidad Laica Eloy Alfaro de Manabí</h2>
+          <h3 class="card-title">Estudiante:</h3>
+          <p class="card-text">Carreño Reyes Erick Roger </p>
+          <h5 class="card-title">Curso:</h5>
+          <p class="card-text">Sexto "B" </p>
+          <h5 class="card-title">Materia:</h5>
+          <p class="card-text">Modelamiento y simulacion</p>
+          <h5 class="card-title">Docente:</h5>
+          <p class="card-text">Ing. Jorge Moya</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="card bg-light mb-3">
+  <div class="container">
+    <div class="row">
+      <div class="card-body">
+        <h3 class="card-title" align="center">¿Que es el Etherium?</h3>
+        <br>
+        <p class="card-text">Ethereum es una plataforma digital que adopta la tecnología de cadena de bloques
+          (blockchain) y expande su uso a una gran variedad de aplicaciones. Ether, su criptomoneda nativa,
+          es la segunda más grande del mercado.
+          Ether, como otras criptomonedas, utiliza un libro digital compartido donde se registran todas las
+          transacciones. Es de acceso público, completamente transparente y muy difícil de modificar a posteriori.
+        </p>
+        <p class="card-text">
+          Este ‘libro contable digital’ se denomina blockchain o cadena de bloques, y se construye a través del proceso
+          de minería de datos.
+
+          Los mineros son los responsables de verificar grupos de transacciones de ether para formar "bloques" y
+          codificarlos resolviendo complejos algoritmos. Estos algoritmos pueden ser a su vez más o menos difíciles,
+          como forma de mantener cierta constancia en el tiempo de procesamiento de los bloques (alrededor de uno cada
+          14 segundos).
+
+          Los nuevos bloques se enlazan entonces a la cadena de bloques anterior y el minero en cuestión recibe una
+          recompensa, es decir, un número fijo de tokens de ether. Normalmente son 5 unidades de ether, aunque esta
+          cifra puede verse reducida si la criptomoneda continúa subiendo.
+        </p>
+        <h3 class="card-title" align="center">¿De qué trata el sistema?</h3>
+        <p class="card-text">Es un sistema que funciona para medir los precios estimados del Etherium a lo
+          largo del 2022, calculando las subidas de valor de su moneda, porcentajes asi como los principales 
+          compradores a nivel mundial y como influyen estos en el precio del mismo. 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

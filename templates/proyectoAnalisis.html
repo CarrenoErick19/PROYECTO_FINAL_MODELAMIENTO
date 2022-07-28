@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %} Análisis de datos {% endblock %}
+{% block content %}
+<center>
+  <br>
+  <div class="w3-container w3-teal">
+      <h2 style="font-family:'Brush Script MT'; font-size:50px;"><strong>Analisis de los datos referentes
+        a las inversiones en Etherium
+      </strong>
+  </div>
+  <br>
+</center>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="data:image/png;base64,{{imagen1}}" class="img-fluid rounded-start" alt="grafica">
+      <div class="card-body">
+        <h5 class="card-title">Total de subidas y bajadas para Etherium</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+       <img src="data:image/png;base64,{{imagen2}}" class="img-fluid rounded-start" alt="grafica">
+      <div class="card-body">
+        <h5 class="card-title">Frecuencia de inversores</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="data:image/png;base64,{{imagen3}}" class="img-fluid rounded-start" alt="grafica">
+      <div class="card-body">
+        <h5 class="card-title">Frecuencia del ultimo inversor</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="data:image/png;base64,{{imagen4}}" class="img-fluid rounded-start" alt="grafica">
+      <div class="card-body">
+        <h5 class="card-title">Tipos de inversores en Etherium</h5>
+      </div>
+    </div>
+  </div>
+</div> <br><br>
+
+{% endblock %}

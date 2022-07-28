@@ -1,0 +1,30 @@
+.navbar{
+    background-color: rgb(25, 135, 84) !important;
+}
+
+.nav-link{
+    color:rgb(255, 255, 255) !important;
+}
+
+.btn{
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;  
+    padding: 5px 40px !important; 
+    /* background-color: rgb(95, 16, 20) !important; */
+}
+
+.btn1:hover {
+    background-color: rgb(82, 31, 33) !important;
+}
+
+.btn2:hover {
+    background-color: rgb(80, 54, 56) !important;
+}
+
+.alert1{
+    background-color: rgb(218, 201, 201) !important;
+}
+
+.card{
+    color: black;
+}
